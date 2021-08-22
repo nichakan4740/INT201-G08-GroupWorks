@@ -1,7 +1,7 @@
 var button = document.querySelector(".btn");
 var scoreText = document.querySelector(".score");
   
-const text = "Hello";
+const text = "Hello Hello";
 console.log(text);
   
 let score = 0;
