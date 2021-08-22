@@ -1,7 +1,7 @@
 var button = document.querySelector(".btn");
 var scoreText = document.querySelector(".score");
   
-const text = "สวัสดีครับ";
+const text = "Hello";
 console.log(text);
   
 let score = 0;
@@ -19,7 +19,7 @@ setTimeout(function(){
 function sayHello(){
 	console.log("Hello");
 }
-setTimeout(sayHello,3000);
+setTimeout(sayHello,3000)
 
 
   
