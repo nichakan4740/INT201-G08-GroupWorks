@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #f5f5f8;
+  }
+  /* กำหนดขนาดรูป */
+  .product-img {
+    height: 20vw;
+  }
+  
+  .buyBtnBG:hover {
+    cursor: pointer;
+  }
+  
+  @media only screen and (max-width: 768px) {
+  }
+  
+  @media only screen and (max-width: 1024px) {
+    .product-img {
+      height: 30vw;
+    }
+  }
+  
