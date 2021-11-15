@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400;500;600;700;800;900&family=Prompt:wght@100;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(
+    36deg,
+    rgba(85, 90, 224, 1) 40%,
+    rgba(144, 204, 255, 1) 98%
+  );
+  font-family: "Prompt";
+}
+
+.dark-mode {
+  background: linear-gradient(36deg, rgb(40, 40, 46) 40%, rgb(86, 89, 92) 98%);
+}
+
+/* กำหนดขนาดรูป */
+.product-img {
+  height: 20vw;
+}
+
+p {
+  font-family: "Prompt";
+}
+
+.header-text {
+  font-family: "Prompt";
+  font-weight: 600;
+  letter-spacing: 0.15rem;
+}
+
+.buyBtnBG {
+  background: linear-gradient(
+    90deg,
+    rgb(114, 138, 243) 0%,
+    rgba(144, 204, 255, 1) 100%
+  );
+  background-size: 200% 200%;
+  moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.buyBtnBG:hover {
+  cursor: pointer;
+  background-position: 95% 95%;
+  moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.buyBtnBGdark {
+  background: linear-gradient(36deg, rgb(40, 40, 46) 40%, rgb(86, 89, 92) 98%);
+  background-size: 200% 200%;
+  moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.buyBtnBGdark:hover {
+  cursor: pointer;
+  background-position: 95% 95%;
+  moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.cartBtn {
+  background: linear-gradient(
+    90deg,
+    rgb(114, 138, 243) 0%,
+    rgba(144, 204, 255, 1) 100%
+  );
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.3));
+  top: 80%;
+  left: 90%;
+  position: sticky;
+  background-size: 200% 200%;
+  moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.cartBtn:hover {
+  cursor: pointer;
+  background-position: 95% 95%;
+  moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.cartBtnDark {
+  background: linear-gradient(36deg, rgb(40, 40, 46) 40%, rgb(86, 89, 92) 98%);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.3));
+  top: 80%;
+  left: 90%;
+  position: sticky;
+  background-size: 200% 200%;
+  moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+.cartBtnDark:hover {
+  cursor: pointer;
+  background-position: 95% 95%;
+  moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.cartList {
+  max-height: 75vh;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.3));
+}
+
+.cartHeader {
+  background: linear-gradient(
+    90deg,
+    rgb(114, 138, 243) 0%,
+    rgba(144, 204, 255, 1) 100%
+  );
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.3));
+}
+.cartHeaderDark {
+  background: linear-gradient(36deg, rgb(40, 40, 46) 40%, rgb(86, 89, 92) 98%);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.3));
+}
+
+.cartInfo {
+  max-height: 20vh;
+}
+
+.productCart {
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.3));
+}
+
+@media only screen and (max-width: 768px) {
+  /* .cartBtn {
+    top: 80%;
+    left: 50%;
+  } */
+}
+
+@media only screen and (max-width: 1024px) {
+  .product-img {
+    height: 30vw;
+  }
+
+  .cartBtn {
+    top: 80%;
+    left: 80%;
+  }
+}
